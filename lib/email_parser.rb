@@ -14,7 +14,7 @@ require 'pry'
   
   def parse 
     
-    emails.split(/[,?\s]/).select {|email| email != " "}.uniq 
+    emails.split(/[,?\s]/).select {|email| email != ""}.uniq 
 
   end 
   
