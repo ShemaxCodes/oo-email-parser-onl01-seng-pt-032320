@@ -15,6 +15,7 @@ require 'pry'
   def parse 
     
     emails.split(/[,?\s]/)
+    binding.pry
   end 
   
   
